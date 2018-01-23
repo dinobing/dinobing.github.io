@@ -1,2 +1,2 @@
 # Udemy
-[https://dinobing.github.io/](webdev course)
+[webdev course](https://dinobing.github.io)
