@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Form Demo</title>
+</head>
+
+<body>
+	<h1>Login</h1>
+	<!-- action -  where the form sends the data to-->
+	<!-- method - what HTTP method (get/post) -->
+
+	<form action="https://wikipedia.org">
+		<label for="username">Email:</label>
+		<input id="username" type="email" placeholder="email" required>
+
+		<label for="password">Password:</label>
+		<input id="password" type="password" placeholder="password" required>
+		<input type="Submit">
+	</form>
+
+	<br>
+	<hr>
+	<br>
+
+	<p>Do you prefer cats or dogs?</p>
+	
+	<form action="">
+		<label for="dogs">Dogs:</label>
+		<input name="petChoice" value="DOGS" id="dogs" type="radio">
+
+		<label for="cats">Cats:</label>
+		<input name="petChoice" value="CATS" id="cats" type="radio">
+
+		<p>What's your current mood?</p>
+		<select name="mood">
+			<option value="happy">:)</option>
+			<option value="neutral">:|</option>
+			<option value="sad">:(</option>
+		</select>
+
+		<input type="text">
+
+		<textarea name="paragraph" cols="10" rows="10"></textarea>
+
+		<button>Go!</button>
+	</form>
+
+	<br>
+	<hr>
+	<br>
+
+	<a href="/forms-exercise.html">go to exercise</a>
+
+</body>
+
+</html>

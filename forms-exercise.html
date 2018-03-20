@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Forms Exercise</title>
+</head>
+
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<label for="fname">First name:</label>
+		<input id="fname" name="fname" type="text" placeholder="John" required>
+
+		<label for="lname">First name:</label>
+		<input id="lname" name="lname" type="text" placeholder="Doe" required>
+		<br>
+
+		<label for="male">Male</label>
+		<input name="gender" value="MALE" id="male" type="radio">
+
+		<label for="female">Female</label>
+		<input name="gender" value="FEMALE" id="female" type="radio">
+
+		<label for="other">Other</label>
+		<input name="gender" value="OTHER" id="other" type="radio">
+
+		<br>
+
+		<label for="email">Email:</label>
+		<input name="email" id="email" type="email" placeholder="your email" required>
+
+		<label for="password">Password:</label>
+		<input name="password" id="password" type="password" required>
+
+		<br>
+	
+	<label for="bDay">Birthday:</label>
+	<select name="" id="bDay">
+		<option value="">Month</option>
+		<option value="">Jan</option>
+		<option value="">Feb</option>
+	</select>
+	<select name="" id="bDay">
+		<option>Day</option>
+		<option>1</option>
+		<option>2</option>
+	</select>
+	<select name="" id="bDay">
+		<option>Year</option>
+		<option>1992</option>
+		<option>1995</option>
+	</select>
+	<br>
+	<label for="agree">I agree to the terms and conditions</label>
+	<input name="agree" id="agree" type="radio">
+	<br>
+	<input type="submit">
+</form>
+</body>
+
+</html>
