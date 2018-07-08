@@ -2,20 +2,73 @@
 <html>
 
 <head>
-    <!-- this is a comment (command + /) -->
+    <style>
+        body {
+            background: paleturquoise;
+        }
+        .aLink {
+            background: orangered;
+            padding: 5px;
+            display: block;
+            margin: 3px;
+            text-decoration: none;
+            font-size: 35px;
+            color: white;
+            border-radius: 4px; 
+            width: auto;           
+        }
+
+        .aLink:hover {
+            background: navy;
+            transition: background 500ms;
+        }
+
+        /* .aLink:visited {
+            color: blue;
+        } */
+
+        
+
+        .myLinks {
+            margin: 40%;
+            margin-top: 0;
+            margin-bottom: 0;
+            width: auto;
+            text-align: center;
+        }
+
+        /* #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%; 
+            background-color: #b61924;
+            background-image: url("");
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+
+        canvas {
+            display: block;
+            vertical-align: top;
+        } */
+    </style>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> -->
+    <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
     <title>My first page</title>
 </head>
 
 <body>
-    <a href="page2.html">go to page 2</a>
-    <a href="page3.html">go to page 3</a>
-    <a href="forms.html">go to forms</a>
-    <a href="forms-exercise.html">go to forms exercise</a>
-    <a href="bootstrap.html">go to bootstrap</a>
-    <a href="quiz1.html">go to quiz 1</a>
-    <a href="quiz2.html">go to quiz 2</a>
-    <a href="temp.html">go to temp</a>
-
+    <div class="myLinks">
+        <a class="aLink" href="page2.html">go to page 2</a>
+        <a class="aLink" href="page3.html">go to page 3</a>
+        <a class="aLink" href="forms.html">go to forms</a>
+        <a class="aLink" href="forms-exercise.html">go to forms exercise</a>
+        <a class="aLink" href="bootstrap.html">go to bootstrap</a>
+        <a class="aLink" href="quiz1.html">go to quiz 1</a>
+        <a class="aLink" href="quiz2.html">go to quiz 2</a>
+        <a class="aLink" href="temp.html">go to temp</a>
+    </div>
     <h1>This is my first tag in h1!</h1>
     <h2>This is my first tag in h2!</h2>
     <h3>This is my first tag in h3!</h3>
@@ -56,40 +109,42 @@
 
     <div>
         <h1>Testing div tag</h1>
-        <p>Lorem, <span>ipsum dolor sit amet consectetur</span> adipisicing elit. Culpa, soluta. Fugiat officiis labore sed, vitae incidunt
-        ducimus corrupti in, recusandae sint velit unde quo sit quidem laudantium dolore eaque reprehenderit.</p>
+        <p>Lorem,
+            <span>ipsum dolor sit amet consectetur</span> adipisicing elit. Culpa, soluta. Fugiat officiis labore sed, vitae incidunt
+            ducimus corrupti in, recusandae sint velit unde quo sit quidem laudantium dolore eaque reprehenderit.</p>
     </div>
 
     <img src="friends.png" alt="chandlerandjoey">
-    
-    <hr> 
-    
+
+    <hr>
+
     <hr>
 
     <a href="page2.html">go to page 2</a>
-<hr>
-<table border="1">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Breed</th>            
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Rusty</td>
-            <td>2</td>
-            <td>Mutt</td>
-        </tr>
-        <tr>
-            <td>Wyatt</td>
-            <td>13</td>
-            <td>Golden</td>
-        </tr>
-    </tbody>
-    
-</table>
+    <hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Breed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rusty</td>
+                <td>2</td>
+                <td>Mutt</td>
+            </tr>
+            <tr>
+                <td>Wyatt</td>
+                <td>13</td>
+                <td>Golden</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <!-- <script src="myParticles.js"></script> -->
 
 </body>
 
